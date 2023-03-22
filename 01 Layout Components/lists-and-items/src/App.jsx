@@ -1,6 +1,9 @@
 import {RegularList} from './RegularList'
 import {SmallPersonListItem} from './people/SmallPersonListItem'
 import {LargePersonListItem} from './people/LargePersonListOItem'
+import { NumberedList } from './NumberedList'
+import {SmallProductListItem} from './product/SmallProductListItem'
+import { LargelProductListItem } from './product/LargeProductListItem'
 
 const people = [
   {
@@ -52,10 +55,19 @@ function App() {
         resouceName="person"
         itemComponent={SmallPersonListItem}
       />
-      <RegularList
+      <NumberedList
         items={people}
         resouceName="person"
         itemComponent={LargePersonListItem} />
+      <RegularList
+        items={products}
+        resouceName="product"
+        itemComponent={SmallProductListItem}
+      />
+      <NumberedList
+        items={products}
+        resouceName="product"
+        itemComponent={LargelProductListItem} />
     </>
   )
 }
