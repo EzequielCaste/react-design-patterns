@@ -10,10 +10,23 @@ Design patterns are effective solutions to common application development challe
 - Working with forms
 - Incorporating functional programming concepts into our code
 
-## Layout Components
+### Layout Components
 - Split-screen
 - Items and Lists
-- Controlled / Uncontrolled Components
+- Modal components
 
+### Container Components
+- CurrentUserLoader component
+- UserLoader component
+- ResourceLoader component
+- DataSource component
+- Loading data from localStorage
+
+### Controlled and Uncontrolled Components
+- Uncontrolled forms
+- Controlled forms
+- Controlled modals
+- Uncontrolled onboarding flows
+- Controlled onboarding flows
 
 
