@@ -80,7 +80,7 @@ app.get('/users', (req, res) => {
   res.json(users)
 })
 
-app.get('/products/:id', (req, res) => {
+app.get('/api/products/:id', (req, res) => {
   const { id } = req.params
   res.json(products.find(product => product.id === id))
 })

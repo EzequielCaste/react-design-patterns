@@ -1,18 +1,17 @@
 import { UserLoader } from "./UserLoader"
 import { UserInfo } from "./UserInfo"
+import { ResourceLoader } from "./ResourceLoader"
+import { ProductInfo } from "./ProductInfo"
 function App() {
 
   return (
     <>
-      <UserLoader userId={"123"}>
+      <ResourceLoader resourceUrl='/api/users/234' resourceName='user'>
         <UserInfo />
-      </UserLoader>
-      <UserLoader userId={"234"}>
-        <UserInfo />
-      </UserLoader>
-      <UserLoader userId={"456"}>
-        <UserInfo />
-      </UserLoader>
+      </ResourceLoader> 
+      <ResourceLoader resourceUrl='/api/products/1234' resourceName='product'>
+        <ProductInfo />
+      </ResourceLoader>  
     </>
   )
 }
