@@ -10,10 +10,8 @@ Design patterns are effective solutions to common application development challe
 - Working with forms
 - Incorporating functional programming concepts into our code
 
-### Layout Components
-- Split-screen
-- Items and Lists
-- Modal components
+### [Layout Components](https://github.com/EzequielCaste/react-design-patterns/tree/main/01%20Layout%20Components)
+
 
 ### Container Components
 - CurrentUserLoader component
