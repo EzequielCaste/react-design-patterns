@@ -2,13 +2,9 @@
 
 ### What are layout components?
 
-> Layout components are components in React whose primary concern is helping us to arrange other components that we create on the page.
-> 
-
-<aside>
-💡 Our components shouldn’t know where they are being displayed.
-
-</aside>
+> The Layout Components Design Pattern in React is a common pattern used to create reusable components that define the overall layout of an application. These components typically define the high-level structure of the page, such as headers, footers, sidebars, or content areas, and allow for easy 
+composition and customization of the application's layout.
+ 
 
 ![image](https://user-images.githubusercontent.com/51804994/228676118-b08188a9-02c1-48e3-ba5a-841df9a5a753.png)
 
